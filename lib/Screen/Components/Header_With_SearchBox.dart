@@ -13,7 +13,7 @@ class HeaderWithSearchBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: size.height * 0.3,
-      margin: const EdgeInsetsDirectional.only(bottom: 20 * 2.5),
+      margin: const EdgeInsetsDirectional.only(bottom: 20),
       child: Stack(children: [
         Container(
           padding: const EdgeInsets.only(left: 20, right: 20, bottom: 46 - 20),
