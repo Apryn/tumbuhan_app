@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tumbuhan_app/Screen/Details/DetailScreen.dart';
 
 class RecomendedPlants extends StatelessWidget {
   const RecomendedPlants({
@@ -16,21 +17,36 @@ class RecomendedPlants extends StatelessWidget {
             title: "Samantha",
             country: "Rusia",
             price: 440,
-            press: () {},
+            press: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const DetailScreen()));
+            },
           ),
           RecomendePlantCard(
             image: "assets/images/Tanaman2.jpg",
             title: "Lidah Buaya",
             country: "Indonesia",
             price: 500,
-            press: () {},
+            press: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const DetailScreen()));
+            },
           ),
           RecomendePlantCard(
             image: "assets/images/Tanaman3.jpg",
             title: "Mawar",
             country: "United States",
             price: 120,
-            press: () {},
+            press: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const DetailScreen()));
+            },
           ),
         ],
       ),

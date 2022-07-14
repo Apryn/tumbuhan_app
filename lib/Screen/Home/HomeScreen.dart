@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tumbuhan_app/Screen/Components/Body.dart';
-import 'Components/MyBottomNavbar.dart';
+import 'package:tumbuhan_app/Screen/Home/Components/MyBottomNavbar.dart';
+import 'Components/Body.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
