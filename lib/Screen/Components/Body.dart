@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tumbuhan_app/Theme.dart';
+import 'FeaturedPlants.dart';
 import 'Header_With_SearchBox.dart';
 import 'RecomendedPlants.dart';
 import 'TitleWithBtn.dart';
@@ -18,7 +19,12 @@ class Body extends StatelessWidget {
             title: "Recomended",
             press: () {},
           ),
-          const RecomendedPlants()
+          const RecomendedPlants(),
+          TittleWithBtn(title: "Featured Plants", press: () {}),
+          const FeaturedPlants(),
+          SizedBox(
+            height: 20,
+          )
         ],
       ),
     );
